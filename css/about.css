@@ -1,0 +1,142 @@
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #2c3e50;
+  line-height: 1.6;
+}
+
+/* Header */
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 500px;
+  width: 100%;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #2c3e50;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 12px 20px;
+  border: none;
+  background: #f87706;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 0 30px 30px 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-bar button:hover {
+  background: #be691d;
+}
+
+
+/* Navigation */
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 25px;
+}
+
+nav ul li a:hover {
+  color: #f87706;
+}
+
+
+/* About Section */
+.about {
+  padding: 70px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #f87706;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Divider Line */
+.about-container::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #f87706;
+  margin: 30px auto 0;
+  border-radius: 2px;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 100px;
+}
