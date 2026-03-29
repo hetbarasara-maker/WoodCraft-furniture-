@@ -12,88 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
-/* Header */
-header {
-  background-color: #2c3e50;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  flex-wrap: wrap;
-}
-
-header h1 {
-  font-size: 28px;
-  margin-bottom: 0;
-  white-space: nowrap;
-}
-
-.search-bar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 500px;
-  width: 100%;
-}
-
-.search-bar input {
-  width: 100%;
-  padding: 12px 15px;
-  border: 2px solid #2c3e50;
-  border-radius: 30px 0 0 30px;
-  outline: none;
-  font-size: 1rem;
-}
-
-.search-bar button {
-  padding: 12px 20px;
-  border: none;
-  background: #f87706;
-  color: #fff;
-  font-size: 1rem;
-  border-radius: 0 30px 30px 0;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.search-bar button:hover {
-  background: #be691d;
-}
-
-
-/* Navigation */
-nav {
-  display: flex;
-  align-items: center;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 0px;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px 15px;
-  border-radius: 25px;
-}
-
-nav ul li a:hover {
-  color: #f87706;
-}
+/* Header and Navigation styles removed in favor of header.css */
 
 
 /* About Section */
@@ -132,11 +51,4 @@ nav ul li a:hover {
   border-radius: 2px;
 }
 
-/* Footer */
-footer {
-  background-color: #2c3e50;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 100px;
-}
+/* Footer removed in favor of header.css */

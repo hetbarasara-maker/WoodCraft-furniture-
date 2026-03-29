@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Checkout</title>
   <link rel="stylesheet" href="css/style3.css">
+  <link rel="stylesheet" href="css/header.css">
 </head>
+
 <body>
 
-  <header class="header">
-  <div class="container">
-    <!-- Company Name -->
-    <div class="name">
-                <h1>WoodCraft Furniture</h1>
-            </div>
-    
-    <!-- Search Bar Section -->
-    <div class="search-bar">
-      <input type="text" placeholder="Search your choice" aria-label="Search">
-      <button type="submit">Search</button>
-    </div>
-    
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <a href="pr1.html">Home</a>
-      <a href="cart.html">Cart</a>
-      <a href="checkout.html">Checkout</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+  <header>
+    <h1>WoodCraft Furniture</h1>
+    <nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search your choice">
+        <button type="submit">Search</button>
+      </div>
+      <div class="hamburger" id="hamburger">
+        ☰
+      </div>
+      <ul id="navMenu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-  </div>
-</header>
+  </header>
 
 
   <section class="checkout container">
@@ -66,24 +65,26 @@
         Country
         <input type="text" placeholder="Country" required>
       </label>
-      
-<label>
-  Payment Method
-  <select required>
-    <option value="">Select Your Payment Type</option>
-    <option value="cod">Cash On Delivery</option>
-    <option value="upi">UPI</option>
-  </select>
-</label>
+
+      <label>
+        Payment Method
+        <select required>
+          <option value="">Select Your Payment Type</option>
+          <option value="cod">Cash On Delivery</option>
+          <option value="upi">UPI</option>
+        </select>
+      </label>
 
 
       <button type="submit" class="buy-btn">Place Order</button>
     </form>
   </section>
 
-  <footer class="footer">
-    <p>&copy; 2025 My Store</p>
+  <footer>
+    <p>&copy; 2025 WoodCraft Furniture. All rights reserved.</p>
   </footer>
 
+  <script src="js/script.js"></script>
 </body>
+
 </html>

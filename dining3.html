@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clay Round Dining Set | Buy Online</title>
   <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="css/header.css">
 </head>
+
 <body>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <h1 class="logo">WoodCraft Furniture</h1>
-      <nav>
-        <a href="pr1.html">Home</a>
-        <a href="#overview">Overview</a>
-        <a href="#specs">Specs</a>
-        <a href="#dimensions">Dimensions</a>
-        <a href="#care">Care</a>
-        <a href="#reviews">Reviews</a>
-      </nav>
-    </div>
+  <header>
+    <h1>WoodCraft Furniture</h1>
+    <nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search your choice">
+        <button type="submit">Search</button>
+      </div>
+      <div class="hamburger" id="hamburger">
+        ☰
+      </div>
+      <ul id="navMenu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <!-- Product Hero -->
@@ -31,10 +39,10 @@
         <h2>Clay Round Dining Set</h2>
         <p class="tagline">Bold sculptural table with warm earthy tones and faux leather chairs.</p>
         <p class="price">₹99,999 <span class="old-price">₹1,29,999</span></p>
-        <div class="button"> 
-        <a href="checkout.html" class="buy-btn">Buy Now</a>
-        <a href="cart.html" class="buy-btn">Add To Cart</a>
-      </div>
+        <div class="button">
+          <a href="checkout.html" class="buy-btn">Buy Now</a>
+          <a href="cart.html" class="buy-btn">Add To Cart</a>
+        </div>
         <ul class="features">
           <li>4-Seater round dining table</li>
           <li>Textured sculptural pedestal base</li>
@@ -51,12 +59,30 @@
     <div class="container">
       <h3>Technical Specifications</h3>
       <table>
-        <tr><th>Model</th><td>Clay Round Dining Set</td></tr>
-        <tr><th>Table Material</th><td>Engineered Wood with Matte Finish</td></tr>
-        <tr><th>Chair Upholstery</th><td>Faux Leather (Camel Color)</td></tr>
-        <tr><th>Base Material</th><td>Textured Fiber-Reinforced Resin</td></tr>
-        <tr><th>Seating Capacity</th><td>4 people</td></tr>
-        <tr><th>Weight</th><td>Table: 60 kg | Chair: 6 kg each</td></tr>
+        <tr>
+          <th>Model</th>
+          <td>Clay Round Dining Set</td>
+        </tr>
+        <tr>
+          <th>Table Material</th>
+          <td>Engineered Wood with Matte Finish</td>
+        </tr>
+        <tr>
+          <th>Chair Upholstery</th>
+          <td>Faux Leather (Camel Color)</td>
+        </tr>
+        <tr>
+          <th>Base Material</th>
+          <td>Textured Fiber-Reinforced Resin</td>
+        </tr>
+        <tr>
+          <th>Seating Capacity</th>
+          <td>4 people</td>
+        </tr>
+        <tr>
+          <th>Weight</th>
+          <td>Table: 60 kg | Chair: 6 kg each</td>
+        </tr>
       </table>
     </div>
   </section>
@@ -103,12 +129,11 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 SofaStore | Free Delivery Across India</p>
-    </div>
+  <footer>
+    <p>&copy; 2025 WoodCraft Furniture. All rights reserved.</p>
   </footer>
 
+  <script src="js/script.js"></script>
 </body>
+
 </html>

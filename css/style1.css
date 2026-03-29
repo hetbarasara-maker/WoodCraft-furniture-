@@ -19,59 +19,45 @@ body {
   padding: 0 1rem;
 }
 
-/* Header */
-.header {
-  background: #2c3e50;
-  color: #fff;
-  padding: 1rem 0;
-}
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.header nav a {
-  color: #fff;
-  margin-left: 1rem;
-  text-decoration: none;
-  font-size: 0.95rem;
-}
-.header nav a:hover {
-  text-decoration: underline;
-}
+/* Header and nav removed in favor of header.css */
 
 /* Hero Section */
 .hero {
   padding: 2rem 0;
   background: #fff;
 }
+
 .hero .container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
   align-items: center;
 }
+
 .hero-img {
   max-width: 500px;
   width: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
+
 .hero-info {
   flex: 1;
 }
+
 .price {
   font-size: 1.5rem;
   color: #d2691e;
   margin: 1rem 0;
 }
+
 .old-price {
   text-decoration: line-through;
   font-size: 1rem;
   color: #888;
   margin-left: 0.5rem;
 }
+
 .buy-btn {
   background: #d2691e;
   color: #fff;
@@ -83,16 +69,20 @@ body {
   cursor: pointer;
   transition: background 0.3s;
 }
+
 .buy-btn:hover {
   background: #a0522d;
 }
+
 .features {
   margin-top: 1rem;
   list-style: none;
 }
+
 .features li {
   margin-bottom: 0.5rem;
 }
+
 .features li::before {
   content: "✔";
   margin-right: 0.5rem;
@@ -103,18 +93,21 @@ body {
 .specs {
   padding: 2rem 0;
 }
+
 .specs table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 1rem;
   font-size: 0.95rem;
 }
+
 .specs th,
 .specs td {
   border: 1px solid #ddd;
   padding: 0.8rem;
   text-align: left;
 }
+
 .specs th {
   background: #f7f5f2;
   width: 30%;
@@ -125,12 +118,14 @@ body {
   background: #f9f7f3;
   padding: 2rem 0;
 }
+
 .dim-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
 }
+
 .dim-box {
   background: #fff;
   padding: 1rem;
@@ -142,10 +137,12 @@ body {
 .care {
   padding: 2rem 0;
 }
+
 .care ul {
   margin-top: 1rem;
   padding-left: 1.5rem;
 }
+
 .care ul li {
   margin-bottom: 0.5rem;
 }
@@ -155,6 +152,7 @@ body {
   background: #fff;
   padding: 2rem 0;
 }
+
 .reviews article {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -163,22 +161,9 @@ body {
   border-radius: 4px;
 }
 
-/* Footer */
-.footer {
-  background: #2c3e50;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-  margin-top: 2rem;
-}
+/* Footer removed in favor of header.css */
 
-/* Responsive */
 @media (max-width: 768px) {
-  .header .container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .hero .container {
     flex-direction: column;
   }

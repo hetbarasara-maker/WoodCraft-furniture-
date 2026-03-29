@@ -12,84 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header */
-header {
-  background-color: #2c3e50;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 40px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  flex-wrap: wrap;
-}
-
-header h1 {
-  font-size: 28px;
-  white-space: nowrap;
-}
-
-/* Search Bar */
-.search-bar {
-  display: flex;
-  align-items: center;
-  flex: 1;
-  max-width: 500px;
-  margin: 10px auto;
-  justify-content: center;
-}
-
-.search-bar input {
-  width: 100%;
-  padding: 12px 15px;
-  border: none;
-  border-radius: 30px 0 0 30px;
-  font-size: 1rem;
-  outline: none;
-}
-
-.search-bar button {
-  padding: 12px 20px;
-  border: none;
-  background: #f87706;
-  color: #fff;
-  font-size: 1rem;
-  border-radius: 0 30px 30px 0;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.search-bar button:hover {
-  background: #be691d;
-}
-
-/* Navigation */
-nav {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 0px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 8px 15px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-nav ul li a:hover {
-  color: #f87706;
-}
+/* Header and nav removed in favor of header.css */
 
 /* Hero Section */
 .hero {
@@ -137,7 +60,7 @@ nav ul li a:hover {
   background: #fff;
   padding: 15px;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -238,11 +161,4 @@ nav ul li a:hover {
   background-color: #be691d;
 }
 
-/* Footer */
-footer {
-  background-color: #2c3e50;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
-  margin-top: 40px;
-}
+/* Footer removed in favor of header.css */
